@@ -4,22 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      :root {
+        --text: center;
+        --weight: 700;
+        --color: #6c63ff;
+        --color-primary: white;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+      .about-me {
+        font-weight: var(--weight);
+        font-size: 96px;
+        text-align: var(--text);
+      }
+      p {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 24px;
+        text-align: var(--text);
+        font-weight: 700;
+        line-height: 0;
+      }
+      .about-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .para {
+        text-align: center;
+        background-color: #f5f2fe;
+        margin: 10px;
+        width: 25%;
+        padding: 20px;
+        font-size: 18px;
+        line-height: 27px;
+      }
+      .contact {
+        font-weight: var(--weight);
+        font-size: 48px;
+        text-align: var(--text);
+      }
+      #email {
+        font-weight: 400px;
+        font-size: 28px;
+        text-align: var(--text);
+        color: rgb(108, 99, 255);
+      }
+      #email:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
-    <h1>aboout me</h1>
-    <a href="../index.html">back to homepage</a>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <h1>this is not important</h1>
-    <div id="faq">FAQ</div>
+    <div class="container">
+      <div class="children">
+        <div class="about-me">About me</div>
+        <p>front-end developer based in Malawi</p>
+        <div class="about-div">
+          <div class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
+            qui alias veniam excepturi rem dolor fugit dignissimos, sed
+            voluptatum blanditiis harum.
+            <br /><br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
+            qui alias veniam excepturi rem dolor fugit dignissimos, sed
+            voluptatum blanditiis harum.
+          </div>
+          <div class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
+            qui alias veniam excepturi rem dolor fugit dignissimos, sed
+            voluptatum blanditiis harum. <br /><br />
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit
+            qui alias veniam excepturi rem dolor fugit dignissimos, sed
+            voluptatum blanditiis harum.
+          </div>
+        </div>
+
+        <div class="contact">📮 About me</div>
+        <div id="email">agathachituwa2@gmail.com</div>
+      </div>
+    </div>
   </body>
 </html>
