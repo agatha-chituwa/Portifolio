@@ -1,0 +1,51 @@
+.hero-section {
+  background-image: linear-gradient(198deg, #54f5a4, #8697fa 56%);
+  margin-top: 0;
+  padding: 100px 50px 20px;
+}
+h1,
+h2 {
+  font-size: 95px;
+  font-weight: bold;
+  line-height: 95px;
+}
+p {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+/* media queries */
+@media (max-width: 900px) {
+  h1,
+  h2 {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+  }
+  p {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    padding: 30px 20px;
+    height: 85vh;
+  }
+  h1,
+  h2 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+  }
+}
