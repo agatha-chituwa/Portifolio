@@ -1,8 +1,5 @@
 .hero-section {
   background-image: linear-gradient(198deg, #54f5a4, #8697fa 56%);
-  margin-top: 0;
-  padding: 100px 50px 20px;
-  height: 100vh;
 }
 h1,
 h2 {
@@ -29,11 +26,7 @@ p {
   transform: rotate(0deg);
   background-color: #01f4a4 !important;
 }
-@media screen and (max-width: 991px) {
-  .section-36 {
-    padding-bottom: 0;
-  }
-}
+
 /* media queries */
 @media (max-width: 900px) {
   h1,
@@ -59,12 +52,10 @@ p {
     font-size: 50px;
     font-weight: bold;
     line-height: 60px;
-    text-align: center;
   }
   p {
     font-size: 20px;
     line-height: 40px;
     font-weight: bold;
-    text-align: center;
   }
 }
