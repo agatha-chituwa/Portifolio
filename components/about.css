@@ -15,11 +15,13 @@
 }
 .h1,
 .h2 {
+  font-family: "Satisfy", cursive;
   font-size: 95px;
   font-weight: bold;
   line-height: 95px;
 }
 .p {
+  font-family: "Satisfy", cursive;
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;
@@ -29,10 +31,13 @@
   line-height: 20px;
   font-weight: 400;
   border: 2px solid black;
-
+  font-family: "Satisfy", cursive;
   box-shadow: 5px 2px 3px black;
   transition: background-color 0.2s;
   transform: rotate(-7deg);
+}
+.navbar-brand {
+  font-family: "Satisfy", cursive;
 }
 .btn:hover {
   transform: rotate(0deg);
