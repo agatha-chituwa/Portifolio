@@ -1,13 +1,25 @@
 .hero-section {
   background-image: linear-gradient(198deg, #54f5a4, #8697fa 56%);
 }
-h1,
-h2 {
+.what-do-ido {
+  background-color: #e2e4e8;
+}
+.card-header {
+  background-color: #e2e4e8;
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+.h1,
+.h2 {
   font-size: 95px;
   font-weight: bold;
   line-height: 95px;
 }
-p {
+.p {
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;
@@ -26,16 +38,26 @@ p {
   transform: rotate(0deg);
   background-color: #01f4a4 !important;
 }
+.who-imi {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+.descri {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
 
 /* media queries */
 @media (max-width: 900px) {
-  h1,
-  h2 {
+  .h1,
+  .h2 {
     font-size: 80px;
     font-weight: bold;
     line-height: 80px;
   }
-  p {
+  .p {
     font-size: 25px;
     line-height: 40px;
     font-weight: bold;
@@ -47,13 +69,13 @@ p {
     padding: 30px 20px;
     height: 85vh;
   }
-  h1,
-  h2 {
+  .h1,
+  .h2 {
     font-size: 50px;
     font-weight: bold;
     line-height: 60px;
   }
-  p {
+  .p {
     font-size: 20px;
     line-height: 40px;
     font-weight: bold;
