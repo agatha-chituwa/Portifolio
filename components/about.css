@@ -39,17 +39,34 @@
 .navbar-brand {
   font-family: "Satisfy", cursive;
 }
-.fa-brands {
-  background-color: #f9f7fe;
-  color: #8697fa;
-  font-size: large;
-  border-radius: 50px;
-}
-.footer-text {
+.email-link {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
   font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+footer {
+  padding: 60px 0;
+}
+footer .contact-box {
+  background-color: #f9f7fe;
+  padding: 50px;
+  margin: 0 40px;
+}
+footer .socialLinks a {
+  margin: 0 20px;
+  color: #01f4a4;
+  background-color: #f9f7fe;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+footer .socialLinks a:hover {
+  color: #8697fa;
+  background-color: black;
+}
+.email-link:hover {
+  color: #8697fa !important;
 }
 .btn:hover {
   transform: rotate(0deg);
